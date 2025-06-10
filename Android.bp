@@ -22,6 +22,26 @@ android_app_import {
 }
 
 android_app_import {
+        name: "Notes",
+        dex_preopt: {
+            enabled: false,
+        },
+        apk: "Notes/Notes.apk",
+        presigned: true,
+		preprocessed: true,
+}
+
+android_app_import {
+        name: "Calendar",
+        dex_preopt: {
+            enabled: false,
+        },
+        apk: "Calendar/Calendar.apk",
+        presigned: true,
+		preprocessed: true,
+}
+
+android_app_import {
 	name: "MlkitBarcodeUIPrebuilt",
 	owner: "mlkit",
 	apk: "mlkitbarcode/MlkitBarcodeUIPrebuilt.apk",

@@ -14,6 +14,11 @@
 PRODUCT_PACKAGES += \
     Glimpse
 
+# LosApp
+PRODUCT_PACKAGES += \
+    Twelve
+
+
 # MotoCalculator
 ifneq ($(WITH_GAPPS),true)
 ifeq ($(USE_MOTO_CALCULATOR),true)
@@ -25,9 +30,11 @@ PRODUCT_PACKAGES += \
 endif
 endif
 
-# Via
+# App
 PRODUCT_PACKAGES += \
-    ViaBrowser
+    ViaBrowser \
+    Notes \
+    Calendar
 
 # Prebuilt packages
 PRODUCT_PACKAGES += \
